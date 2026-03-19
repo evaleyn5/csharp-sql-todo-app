@@ -1,47 +1,49 @@
-# 🌟 C# & SQL Todo App
+# ✅ Task Management System (ToDo App)
 
-This is a console-based Todo application built using **C#** and **SQL Server**. It allows users to manage tasks with full CRUD functionality and demonstrates database integration skills in a desktop environment.
-
+This project is a console-based task management application developed using **C#** and **SQL Server**.
+It allows users to manage daily tasks with a simple and efficient structure.
 
 ## 🚀 Features
 
-- ➕ Add new tasks  
-- 📋 List all tasks  
-- ❌ Delete tasks  
-- ✔️ Mark tasks as completed  
-- 🗂️ Tasks are stored and managed using SQL Server
-
+* ➕ Add new tasks
+* 📋 List all tasks
+* ❌ Delete tasks
+* 🔄 Update task status (completed / not completed)
 
 ## 🛠️ Technologies Used
 
-- C# (.NET Console Application)  
-- SQL Server (TbsTask table)  
-- ADO.NET for database operations
-
+* C#
+* .NET Console Application
+* SQL Server
+* ADO.NET
 
 ## 🧠 What I Learned
 
-- Connecting a C# application to SQL Server  
-- Performing CRUD operations programmatically  
-- Handling user input and console UI design  
-- Managing task statuses and updating the database
+* Performing CRUD operations using C# and SQL Server
+* Managing task data with a relational database
+* Using ADO.NET for database connection and queries
+* Building console-based backend applications
 
+## 📂 Database Structure
+
+### TbsTask
+
+* TaskId (int)
+* TaskName (nvarchar)
+* IsCompleted (bit)
 
 ## ⚙️ How to Run
 
-1. Clone this repository  
-2. Open the project in Visual Studio  
-3. Update the SQL connection string if needed  
+1. Clone this repository
+2. Open the project in Visual Studio
+3. Update the SQL connection string if needed
 4. Run the project
-
 
 ## 📌 Notes
 
-- The program automatically inserts sample tasks if the table is empty  
-- Console UI displays task status as ❌ (incomplete) or ✔️ (completed)
-  
+This project focuses on task tracking and database-based data management.
 
 ## 👩‍💻 Developer
 
-**Aleyna**
+Aleyna
 
